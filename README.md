@@ -3,9 +3,9 @@
 3、运行split_train_val.py脚本，将数据集划分为训练集和验证集和测试集，会在ImageSets文件夹下生成4个txt文件。</br>
 4、运行voc_label.py脚本，生成训练需要的数据集文件夹images和labels。</br>
 5、在data目录下建立自己的my.yaml文件，修改classes和train、val、test的路径。</br>
-train: D:\yolov5\VOCdevkit\VOC2007\images\train</br>
-val: D:\yolov5\VOCdevkit\VOC2007\images\val</br>
-test: D:\yolov5\VOCdevkit\VOC2007\images\test</br>
-nc: 5  # number of classes</br>
-names: [qugu, zhigu, shouyaoba, gousuoqijiasuo, zhuanchejiyaoshi]  # class names</br>
+   * train: D:\yolov5\VOCdevkit\VOC2007\images\train</br>
+   * val: D:\yolov5\VOCdevkit\VOC2007\images\val</br>
+   * test: D:\yolov5\VOCdevkit\VOC2007\images\test</br>
+   * nc: 5  # number of classes</br>
+   * names: [qugu, zhigu, shouyaoba, gousuoqijiasuo, zhuanchejiyaoshi]  # class names</br>
 6、修改并运行train.py脚本，开始训练。</br>
